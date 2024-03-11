@@ -1,0 +1,277 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Dancing+Script&display=swap');
+
+
+
+
+body{
+    font-family: 'Advent Pro', sans-serif;
+    padding:0;
+    margin:0;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+li{
+    list-style-type: none;
+}
+
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+/* *************************************** */
+
+nav {
+    overflow:hidden; 
+    background-color:blanchedalmond ;
+    position:fixed;
+    width:100%;
+    opacity:0.9; 
+
+}
+
+header li{
+    float:right;
+    font-size:1.2em;
+}
+
+header li a{
+    text-decoration: none;
+    display:block;
+    text-align: center;
+    padding:14px 16px;
+
+}
+
+#logo{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    float:left;
+}
+
+
+/* ************ Image_principale ***********/
+
+#imageprincipale{
+    padding-top: 40px;
+    background: url(pictures_travel/chateaux.jpg) no-repeat fixed 50% 50% ;
+    height: 799px;
+    background-size: cover;
+    /*filter: drop-shadow(5px 5px 10px black); */
+
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color:antiquewhite;
+    font-size:4em;
+    margin-top: 90px;
+    text-shadow: 10px 3px 1px black;
+}
+
+#premiertrait{
+    height: 1px;
+    width:25%;
+    margin:-4px auto;
+    background-color: blanchedalmond;
+    box-shadow: 10px 3px 1px black;
+
+}
+
+h3{
+    font-family: 'Dancing Script', cursive;
+    text-align:center;
+    color:antiquewhite;
+    font-size: 2.5em;
+    text-shadow: 10px 3px 1px black;
+    font-family: 'Advent Pro', sans-serif;
+
+}
+
+/*------- Présentation ----------*/
+
+#presentation{
+    background-color: #fffae1;
+    padding: 10px 0px 100px 0px;
+}
+
+#Intro{
+    padding:0px 20%;
+}
+
+#prestation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 40px 10px;
+}
+
+.imagepre h4{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 1.5em;
+    margin:10px;
+    font-weight: 300;;
+    padding: 7px 0px;
+
+}
+
+.imagepre img{
+    border-radius: 10px; 
+    box-shadow: 3px 4px 5px 4px rgba(0,0,0,0.7);
+    margin: 15px 100px 15px 100px;
+    height:200px;
+    width:55%;
+
+}
+.imagepre img:hover{
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
+
+/*-----------------Tourisme--------------*/
+
+#découverte{
+    height:1400px;
+    background-color: #f1f2f6;
+    padding: 1px 2px;
+}
+
+#découverte h2{
+    padding-top: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+#mer {
+    background: url(pictures_travel/tanger.jpg);
+}
+
+#Artisanat{
+    background: url(pictures_travel/artisanat.jpg);
+}
+#desert{
+    background: url(pictures_travel/desert.jpg);
+}
+
+#monument{
+    background: url(pictures_travel/Jmaalefna.jpg);
+}
+
+#découverte li{
+    margin: 15px 100px 15px 100px;
+    height:400px;
+    width:55%;  
+    max-width: 550px;
+    float:left;
+    box-shadow:6px 6px 28px -1px rgba(0,0,0,0.7);
+}
+
+#découverte li:hover{
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
+
+
+#découverte p{
+    height: 45px;
+    width:235px;
+    background-color: #01df74;
+    float: right;
+    margin:150px -150px 0 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 13px;
+    box-shadow:4px 4px 0px 1px rgba(90,161,43,0.8)
+}
+
+#découverte #Artisanat #découverte #monument{
+    float:right;
+}
+/****************footer*****************/
+footer{
+    background-color: #524a3a;
+    color:#fffae1;
+    padding: 1px 2px;
+   
+    text-align:center;
+}
+
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
+input,textarea,button{
+    border:none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    border-radius: 8px;
+}
+
+textarea{
+    height:120px;
+
+}
+
+button{
+    font-size: 1.5em;
+    background-color: #fffae1;
+}
+
+button:hover{
+    background-color: #e55039;
+    cursor: pointer;
+    color: #fffae1;
+    transition: 0.3s ease-in-out;
+}
+
+#deuxiemetrait{
+    height:1px;
+    width:75%;
+    background-color: #fffae1;
+    margin:60px auto;
+}
+
+#copyright{
+    text-align:  left;
+    width: 50%;
+    color: azure;
+    display: flex;
+    font-size: 1.3em;
+}
+
+
+
+#icônes{
+    width:50%;
+    display: contents;
+}
+
+#icônes a{
+    display: inline-block;
+    margin:0 15px;
+    font-size: 1.3em;
+    color: #f1f2f6;
+}
+
+#icônes a:hover{
+    transform: scale(1.5);
+    transition: 0.2s;
+
+}
